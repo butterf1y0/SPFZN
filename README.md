@@ -2,30 +2,36 @@
 
 To obtain the complete dataset, please contact: 240505011015@zufe.edu.cn.
 
+<br>
 
 2--The training data directory must contain all three of the following files:
     
-    train.dat.apc
-    
-    valid.dat.apc
-   
-    test.dat.apc
 
+train.dat.apc
+
+valid.dat.apc
+
+test.dat.apc
+
+
+<br>
 
 3--Prediction inputs must follow the format illustrated below, with aspect terms enclosed by [B-ASP] and [E-ASP]:
 
-    "The [B-ASP]pizza[E-ASP] is delicious, but the [B-ASP]staff[E-ASP] is rude.",
+"The [B-ASP]pizza[E-ASP] is delicious, but the [B-ASP]staff[E-ASP] is rude.",
 
-    "I love the [B-ASP]location[E-ASP], but the [B-ASP]price[E-ASP] is too high."
+"I love the [B-ASP]location[E-ASP], but the [B-ASP]price[E-ASP] is too high."
 
+<br>
 
 4--For instructions on installing the core components, details of the PyABSA architecture, 
     and additional format requirements for training and prediction data, please refer to:
 
-    📄 Project: https://github.com/yangheng95/PyABSA
+📄 Project: https://github.com/yangheng95/PyABSA
 
-    📚 Documentation: https://pyabsa.readthedocs.io/
+📚 Documentation: https://pyabsa.readthedocs.io/
 
+<br>
 
 5--References：
 
